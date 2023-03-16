@@ -9,11 +9,12 @@
 
 }
 
-.App nav {
+.App header {
   display: flex;
-  flex-wrap: wrap;
-  font-size: 30px;
+  
 }
+
+
 
 .App-logo {
   height: 40vmin;

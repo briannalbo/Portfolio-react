@@ -6,14 +6,14 @@ import React, { useEffect } from 'react';
 const styles = {
     nav: {
         height: '20px',
-        float: 'right',
+        textAlign: 'center',
         flexDirection: 'row',
-        color: 'orange',
+        color: 'black',
         paddingRight: '20px',
-      
-        fontSize: '12px'
-        
-
+        fontSize: '16px'
+    },
+    a: {
+      marginRight: '20px'
     }
 };
 
@@ -32,13 +32,13 @@ function Nav(props) {
     }, [currentPage]);
     return (
       <nav style = {styles.nav}>
-        <ul className="nav">
+        
           {pages.map((Page) => (
-            <li key={Page.name}>
+            <a style= {styles.a} key={Page.name}>
               <span onClick={() => setCurrentPage(Page)}>{Page.name}</span>
-            </li>
+            </a>
           ))}
-        </ul>
+        
       </nav>
     )
   }

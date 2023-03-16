@@ -3,9 +3,11 @@ import React from 'react';
 
 const styles = {
     header: {
-        
+        width: '100%',
+        textAlign: 'center',
+        display: 'inline-block',
         height: '50px',
-        background: 'green'
+
     }
 };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from './Navigation';
+
 
 const styles = {
     header: {
@@ -12,13 +12,16 @@ const styles = {
 
 function Header(props) {
 
-    const { currentPage, setCurrentPage } = props;
+    
 
     return (
-        <header style={styles.header}>
+        <header style = {styles.header}>
+            <div>
             <h3>Welcome to my Portfolio</h3>
-            {/* <Navigation currentTab={currentPage}
-                setCurrentTab={setCurrentPage}></Navigation> */}
+            </div>
+            {props.children}
+          
+         
         </header>
     );
 };

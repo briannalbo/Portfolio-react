@@ -1,63 +1,50 @@
 import './App.css';
 import { useState } from 'react';
-import Home from './components/Home';
+// import Home from './components/Home';
 import Footer from './components/footer';
 import Header from './components/header';
-import Projects from './components/Projects';
-import About from './components/About';
-import Navigation from './components/Navigation';
-import Example from './components/Example';
-
-function App() {
-  const [pages] = useState([
-    {
-      name: "about me"
-    },
-    { name: "projects" },
-    { name: "home" },
-    
-  ]);
+// import Projects from './components/Projects';
+// import About from './components/About';
+import Nav from './components/Nav';
+// import Example from './components/Example';
+import Page from './components/Pages';
 
 
-  const [currentPage, setCurrentPage] = useState(pages[0]);
 
-  const renderPage = (currentPage) => {
-    switch (currentPage) {
-      case 'home':
-        return <Home />;
-      case 'about me':
-        return <About />
-      case 'projects':
-        return <Projects />;
-        default:
-          return <Example />;
-    }
-  }
-
-
-  return (
+  function App() {
+    const [pages] = useState([
+      {
+        name: "About Me"
+      },
+      { name: "Projects" },
+      { name: "Contact" },
+      {
+        name: "Resume"
+      },
+    ]);
   
+    const [currentPage, setCurrentPage] = useState(pages[0]);
+
+
+
+    return (
       <div>
-        <div>
-          <Header>
-        <nav>
-            <Navigation pages={pages}
-          setCurrentPage={setCurrentPage}
-          currentPage={currentPage}></Navigation>
-            </nav>
+        <Header>
+          <Nav
+            pages={pages}
+            setCurrentPage={setCurrentPage}
+            currentPage={currentPage}
+          ></Nav>
         </Header>
-        </div>
-      <div>
+      
         <main>
-        {renderPage()}
+          <Page currentPage={currentPage}></Page>
         </main>
-        </div>
-        <div>
-        <Footer></Footer>
-        </div>
+        <Footer />
       </div>
     );
-  
   }
+  
+ 
   
 export default App;

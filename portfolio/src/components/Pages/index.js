@@ -7,6 +7,15 @@ import Contact from '../Contact';
 
 
 
+
+const styles = {
+  label: {
+    textAlign:'center',
+  },
+}
+
+
+
 function Page({ currentPage }) {
 
   const renderPage = () => {
@@ -26,7 +35,7 @@ function Page({ currentPage }) {
 
   return (
     <section>
-      <h2>{(currentPage.name)}</h2>
+      <h2 style={styles.label}>{(currentPage.name)}</h2>
       <PageContent>{renderPage()}</PageContent>
     </section>
   );

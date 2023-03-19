@@ -14,7 +14,12 @@
   
 }
 
-
+#portfolio {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .App-logo {
   height: 40vmin;

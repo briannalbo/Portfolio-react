@@ -37,9 +37,22 @@
   flex-wrap: wrap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+#contact-box {
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+#contact-form {
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+ 
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -20,7 +20,7 @@ function Header(props) {
     return (
         <header style = {styles.header}>
             <div>
-            <h3>Welcome to my Portfolio</h3>
+            <h1>Brianna Alborano</h1>
             </div>
             {props.children}
           

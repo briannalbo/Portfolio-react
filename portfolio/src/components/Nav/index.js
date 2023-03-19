@@ -9,11 +9,10 @@ const styles = {
         textAlign: 'center',
         flexDirection: 'row',
         color: 'black',
-        paddingRight: '20px',
         fontSize: '16px'
     },
     a: {
-      marginRight: '20px'
+      marginRight: '26px'
     }
 };
 
@@ -31,7 +30,7 @@ function Nav(props) {
       document.title = currentPage.name;
     }, [currentPage]);
     return (
-      <nav style = {styles.nav}>
+      <nav id='navChoices'style = {styles.nav}>
         
           {pages.map((Page) => (
             <a style= {styles.a} key={Page.name}>

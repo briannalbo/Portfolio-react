@@ -14,6 +14,12 @@
   
 }
 
+#navChoices a{
+  font-size: 18px;
+}
+#navChoices a:hover {
+  background-color: lightgrey;
+}
 
 #aboutme {
   justify-content: center;

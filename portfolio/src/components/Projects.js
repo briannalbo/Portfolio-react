@@ -22,13 +22,13 @@ const styles = {
         
         marginBottom: '25px',
         textAlign: 'center',
-        width: '450px',
+        width: '430px',
         height: '375px',
         marginRight: '15px'
         
     },
     img: {
-        width: '450px',
+        width: '430px',
         height: '300px'
     }
 };

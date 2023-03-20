@@ -1,6 +1,7 @@
 import React from 'react';
 import linked from './projectpics/linkin.jpg';
 import github from './projectpics/githublogo1.jpg';
+import twitter from './projectpics/twitter.png';
 
 const styles = {
     footer: {
@@ -27,6 +28,9 @@ function Footer() {
           ></img></a>
           <a href="https://www.linkedin.com/in/brianna-alborano-78710226b/" target="_blank"><img style= {styles.img}
             src={linked}
+          ></img></a>
+          <a href="https://twitter.com/BriannaAlbo" target="_blank"><img style= {styles.img}
+            src={twitter}
           ></img></a>
         </footer>
     );

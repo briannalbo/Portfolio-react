@@ -1,14 +1,18 @@
 import React from 'react';
+import '../App.css';
 
 
 const styles = {
-    header: {
-        width: '100%',
-        textAlign: 'center',
-        display: 'inline-block',
-        height: '50px',
+    // header: {
+    //     width: '100%',
+    //     textAlign: 'center',
+    //     display: 'inline-block',
+    //     height: '80px',
+    //     backgroundColor: 'maroon',
+    //     color: 'white'
+        
 
-    }
+    // }
 };
 
 

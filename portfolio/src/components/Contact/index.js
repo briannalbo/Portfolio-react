@@ -41,6 +41,8 @@ function Contact() {
 
   return (
     <section id='contact-box'>
+      <h4>Kindly submit any questions or inquiries using the form below.</h4>
+      
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name: </label>

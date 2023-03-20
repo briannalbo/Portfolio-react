@@ -1,12 +1,15 @@
 import React from 'react';
+import '../../App.css'
 
 function Resume() {
   return (
-    <section className="my-5">
-      <div className="my-2">
-      <p>
-        Download my <a href="https://www.linkedin.com/">resume</a>
+    <section>
+      
+      <p id='resume-download'>
+        <a href="https://www.linkedin.com/"> Download My Resume</a>
         </p>
+        <div id='resume'>
+        <div id='front'>
         <h3>Front-end Proficiencies</h3>
         <ul className="skills">
           <li>HTML</li>
@@ -17,6 +20,8 @@ function Resume() {
           <li>React</li>
           <li>Bootstrap</li>
         </ul>
+        </div>
+        <div id='back'>
         <h3>Back-end Proficiencies</h3>
         <ul className="skills">
           <li>APIs</li>
@@ -27,6 +32,7 @@ function Resume() {
           <li>REST</li>
           <li>GraphQL</li>
         </ul>
+        </div>
       </div>
     </section>
   );

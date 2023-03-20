@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portfolio-react/static/css/main.eb2977fa.css",
+    "main.js": "/Portfolio-react/static/js/main.c334b64c.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio-react/static/js/787.1ed0c42c.chunk.js",
+    "static/media/reflection.png": "/Portfolio-react/static/media/reflection.ff0d2ef59d401afa9274.png",
+    "static/media/myresume.pdf": "/Portfolio-react/static/media/myresume.bf8c90bee3a3e79da12c.pdf",
+    "static/media/currency.png": "/Portfolio-react/static/media/currency.72a7de974797e10fa773.png",
+    "static/media/twitter.png": "/Portfolio-react/static/media/twitter.c45a0e99150d2a0ed33c.png",
+    "static/media/weather-app.png": "/Portfolio-react/static/media/weather-app.0313fc6849c2b7098331.png",
+    "static/media/meportfolio.jpg": "/Portfolio-react/static/media/meportfolio.f0f8226047d1c5692b36.jpg",
+    "static/media/plannerpic.png": "/Portfolio-react/static/media/plannerpic.699958dbd1019c399a3e.png",
+    "static/media/quizpic.png": "/Portfolio-react/static/media/quizpic.ad4b9248d19ca2d3594b.png",
+    "static/media/linkin.jpg": "/Portfolio-react/static/media/linkin.c3f0063dce31c9292176.jpg",
+    "static/media/blog.png": "/Portfolio-react/static/media/blog.51ad0d0baa241d1bcd19.png",
+    "index.html": "/Portfolio-react/index.html",
+    "main.eb2977fa.css.map": "/Portfolio-react/static/css/main.eb2977fa.css.map",
+    "main.c334b64c.js.map": "/Portfolio-react/static/js/main.c334b64c.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio-react/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb2977fa.css",
+    "static/js/main.c334b64c.js"
+  ]
+}

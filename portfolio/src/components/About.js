@@ -36,7 +36,7 @@ function About() {
        <img style= {styles.img}
             src={me}
           ></img>
-        <p>I have always been passionate about learning. Throughout my time in various colleges I
+        <p>I have always been passionate about learning. Throughout my time in various undergrad colleges I
              would joke that "I wish I could make a career out of being a student." That is exactly 
              what I found in the field of Web Development. I deeply enjoy being in an everchanging field 
              where learning is a constant. I began my coding journey in the summer of 2022 by watching tutorials 

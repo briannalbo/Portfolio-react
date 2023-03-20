@@ -1,7 +1,9 @@
 import React from 'react';
+//imports picture
 import me from './projectpics/meportfolio.jpg';
+//imports css
 import '../App.css'
-
+//object for styling/ will relocate the styling code to css file at a later date
 const styles = {
     h1: {
         color: 'orange',
@@ -26,7 +28,7 @@ const styles = {
         fontSize: '24px'
     }
 }
-
+//function to render the about me page content
 function About() {
     return (
         <div id='aboutme'>
@@ -49,5 +51,5 @@ function About() {
           </div>
     );
 };
-
+//exports about me function
 export default About;

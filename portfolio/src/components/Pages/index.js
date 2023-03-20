@@ -1,11 +1,11 @@
 import React from 'react';
+//imports all components 
+//each of these make up the content and layout of the app
 import PageContent from '../PageContent';
 import About from '../About';
 import Projects from '../Projects';
 import Resume from '../Resume';
 import Contact from '../Contact';
-
-
 
 
 const styles = {
@@ -14,10 +14,10 @@ const styles = {
   },
 }
 
-
-
+//function to generate the page content
 function Page({ currentPage }) {
 
+  //function to navigate between all existingpages 
   const renderPage = () => {
     switch (currentPage.name) {
       case 'About Me':
@@ -29,10 +29,10 @@ function Page({ currentPage }) {
       case 'Resume':
         return <Resume />;
       default:
-        return <Projects />;
+        return <About />;
     }
   };
-
+//renders the page content 
   return (
     <section>
       <h2 style={styles.label}>{(currentPage.name)}</h2>
@@ -40,4 +40,5 @@ function Page({ currentPage }) {
     </section>
   );
 }
+//exports page function
 export default Page;

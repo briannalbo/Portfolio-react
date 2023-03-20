@@ -1,4 +1,5 @@
 import React from 'react';
+//imports all photos 
 import reflection from './projectpics/reflection.png';
 import weather from './projectpics/weather-app.png';
 import quiz from './projectpics/quizpic.png';
@@ -7,10 +8,8 @@ import currency from './projectpics/currency.png';
 import blog from './projectpics/blog.png';
 import '../App.css'
 
+//chose to add styling through the object below. will relocate this code to the css file at a later date to be consistent
 const styles = {
-    h1: {
-        color: 'orange',
-    },
     projects: {
         width: '100%',
         justifyContent: 'center',
@@ -32,7 +31,7 @@ const styles = {
         height: '300px'
     }
 };
-
+//function to render the content of the projects page
 function Projects() {
     return (
         <div id='portfolio'>
@@ -96,5 +95,5 @@ function Projects() {
        </div>
     );
 };
-
+//exports project page generating function
 export default Projects;

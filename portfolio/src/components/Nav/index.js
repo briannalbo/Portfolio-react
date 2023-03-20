@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
-// import { capitalizeFirstLetter } from '../../utils/helpers';
 
-
-
+//styling
 const styles = {
     nav: {
         height: '20px',
@@ -16,14 +14,10 @@ const styles = {
     }
 };
 
-
-
-
+//function to create the nav bar
 function Nav(props) {
   
-  
-  
-   
+   //establishes each available page as the props
     const { pages = [], setCurrentPage, currentPage } = props;
   
     useEffect(() => {
@@ -42,5 +36,5 @@ function Nav(props) {
     )
   }
 
-
+//exports the nav generating function
 export default Nav;

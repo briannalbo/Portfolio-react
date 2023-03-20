@@ -1,7 +1,9 @@
 import React from 'react';
 import '../../App.css'
+//imports resume
 import myresume from '../../assets/myresume.pdf';
 
+//function to render resume page content
 function Resume() {
   return (
     <section>
@@ -38,5 +40,5 @@ function Resume() {
     </section>
   );
 }
-
+//exports resume function
 export default Resume;

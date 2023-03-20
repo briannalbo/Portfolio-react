@@ -1,12 +1,13 @@
 import React from 'react';
 import '../../App.css'
+import myresume from '../../assets/myresume.pdf';
 
 function Resume() {
   return (
     <section>
       
       <p id='resume-download'>
-        <a href="https://www.linkedin.com/"> Download My Resume</a>
+        <a href={myresume}> Download My Resume</a>
         </p>
         <div id='resume'>
         <div id='front'>

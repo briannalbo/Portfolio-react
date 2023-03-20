@@ -6,6 +6,9 @@
 
   ## Description
   This is a portfolio built with react and CSS. This project includes pages for about me, projects, contact info, and a resume.
+  
+  ## <p align="center">Project Section<p align="center">
+  ![](https://github.com/briannalbo/Portfolio-react/blob/main/portfolio/src/components/projectpics/portfoliopic.png)
 
 
   ## License

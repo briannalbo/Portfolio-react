@@ -6,6 +6,7 @@ import quiz from './projectpics/quizpic.png';
 import planner from './projectpics/plannerpic.png';
 import currency from './projectpics/currency.png';
 import blog from './projectpics/blog.png';
+import speeddate from './projectpics/speeddate.png';
 import '../App.css'
 
 //chose to add styling through the object below. will relocate this code to the css file at a later date to be consistent
@@ -44,6 +45,15 @@ function Projects() {
           ></img></a>
          <a href="https://github.com/briannalbo/Daily-Mood">Mood Tracker repository</a>
 </div>
+
+<div class='card' style={styles.projectsCard}>
+        <h2>Dating App </h2>
+        <a href="https://speeddater.herokuapp.com/" target="_blank"><img style= {styles.img}
+            src={speeddate}
+          ></img></a>
+           <a href="https://github.com/HumzaShaukat/SpeedDater">Dating App repository</a>
+
+        </div>
 
 <div class='card' style={styles.projectsCard}>
         <h2>Weather App</h2>
